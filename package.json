@@ -1,6 +1,7 @@
 {
   "name": "custom-dynamic-form",
   "version": "1.0.2",
+  "license": "MIT",
   "description": "Dynamic form generator using React Hook Form",
   "main": "dist/index.umd.js",
   "module": "dist/index.js",
