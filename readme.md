@@ -169,5 +169,4 @@ If you would like to improve this package, feel free to open an issue or submit 
 
 ## 📄 License
 
-This project currently does not specify a license.
-All rights reserved unless stated otherwise.
+MIT © 2026 Chinmay Inamdar
