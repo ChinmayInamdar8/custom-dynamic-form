@@ -1,11 +1,12 @@
 {
   "name": "custom-dynamic-form",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "license": "MIT",
   "description": "Dynamic form generator using React Hook Form",
   "main": "dist/index.umd.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "style": "dist/style.css",
   "files": [
     "dist"
   ],
@@ -15,6 +16,7 @@
   },
   "peerDependencies": {
     "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
     "react-hook-form": ">=7.0.0",
     "react-icons": "^5.5.0"
   },

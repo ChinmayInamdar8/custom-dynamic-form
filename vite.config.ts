@@ -12,15 +12,21 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: "src/index.ts", 
+      entry: "src/index.ts",
       name: "DynamicForm",
       fileName: "index"
     },
     rollupOptions: {
-      external: ["react", "react-hook-form"],
+      external: [
+        "react",
+        "react-dom",
+        "react-hook-form",
+        "react-icons"
+      ],
       output: {
         globals: {
-          react: "React"
+          react: "React",
+          "react-dom": "ReactDOM"
         }
       }
     }

@@ -31,6 +31,22 @@ yarn add custom-dynamic-form
 
 ---
 
+🎨 Import Styles
+
+This library ships with its own styles.
+Make sure to import the CSS file once in your application root.
+
+Next.js (App Router)
+
+Add the following inside app/layout.tsx:
+
+import "custom-dynamic-form/dist/style.css";
+React (Vite / CRA)
+
+Import it in your main entry file (main.tsx or index.tsx):
+
+import "custom-dynamic-form/dist/style.css";
+
 ## 🚀 Basic Usage
 
 ```tsx
@@ -164,6 +180,9 @@ npm publish
 Contributions are welcome.
 
 If you would like to improve this package, feel free to open an issue or submit a pull request.
+
+🔗 GitHub Repository:  
+https://github.com/ChinmayInamdar8/custom-dynamic-form
 
 ---
 
